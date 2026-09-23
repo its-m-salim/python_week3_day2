@@ -54,15 +54,29 @@
 
 
 3
-class Employee:
+# class Employee:
 
-    employees_count = 0
-    def __init__(self, name, work):
-        self.name = name
-        self.work = work
+#     employees_count = 0
+#     def __init__(self, name, work):
+#         self.name = name
+#         self.work = work
+#         self.employees_count += 1
 
-    def show_info(self):
-        return f"{self.name} | {self.work}"
+#     def show_info(self):
+#         return f"{self.name} | {self.work}"
+
+#     @classmethod
+#     def get_count(cls):
+#         return cls.employees_count
+
+# worker1 = Employee("Ali", "Developer")
+# worker1 = Employee("Sara", "Designer")
+# worker1 = Employee("Rustam", "Manager")
+
+
+# print(f"Total employee: {Employee.get_count()}")
+
+    
 
 
 
