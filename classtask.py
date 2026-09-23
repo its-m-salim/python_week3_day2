@@ -60,7 +60,7 @@
 #     def __init__(self, name, work):
 #         self.name = name
 #         self.work = work
-#         self.employees_count += 1
+#         Employee.employees_count += 1
 
 #     def show_info(self):
 #         return f"{self.name} | {self.work}"
